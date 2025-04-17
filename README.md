@@ -1,22 +1,24 @@
 # 🏥 Farmácia Frontend
 
-Este é o frontend de um sistema de gerenciamento de farmácia, desenvolvido como parte dos exercícios práticos do **Bootcamp Generation Brasil - Desenvolvedor Full Stack Java**. A aplicação foi construída com **Angular**, consumindo dados de uma API RESTful.
+Este é o frontend de um sistema de gerenciamento de farmácia, desenvolvido como parte dos exercícios práticos do **Bootcamp Generation Brasil - Desenvolvedor Full Stack Java**. A aplicação foi construída com **React**, utilizando **JavaScript**, e representa uma interface básica com páginas de **Home**, **Navbar**, **Footer** e operações de **CRUD para categorias**.
 
 ## 🚀 Funcionalidades
 
-- Visualização de produtos disponíveis na farmácia
-- Cadastro de novos produtos
-- Atualização de informações dos produtos
-- Exclusão de produtos
-- Autenticação de usuários (login e cadastro)
+- Página inicial com boas-vindas
+- Navegação entre páginas com barra de navegação (Navbar)
+- Rodapé informativo (Footer)
+- CRUD de categorias:
+  - Listagem de categorias
+  - Cadastro de novas categorias
+  - Atualização de categorias existentes
+  - Exclusão de categorias
 
 ## 🛠️ Tecnologias Utilizadas
 
-- [Angular](https://angular.io/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://reactjs.org/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [Bootstrap](https://getbootstrap.com/)
 - [API REST](https://github.com/sandramastrogiacomo/farmacia_backend.git) (consumida pelo projeto)
 
 ## 📦 Instalação e Execução
@@ -35,25 +37,23 @@ Este é o frontend de um sistema de gerenciamento de farmácia, desenvolvido com
    ```
 4. Inicie o servidor de desenvolvimento:
    ```bash
-   ng serve
+   npm start
    ```
-5. Acesse o app em: `http://localhost:4200`
+5. Acesse o app em: `http://localhost:3000`
 
 ⚠️ **Importante:** Certifique-se de que o backend da aplicação está rodando. Você pode acessá-lo aqui: [farmacia_backend](https://github.com/sandramastrogiacomo/farmacia_backend.git)
 
 ## 📸 Demonstração
 
-*Inclua aqui prints da interface ou um gif de navegação, se desejar.*
+![alt text](vitafarma1.png)
 
 ## 👩‍💻 Autora
 
-| ![Sandra Mastrogiacomo](https://avatars.githubusercontent.com/u/114502661?v=4) |
-|:--:|
-| [@sandramastrogiacomo](https://github.com/sandramastrogiacomo) |
+Sandra Mastrogiacomo
 
 ## 🎓 Projeto desenvolvido durante o Bootcamp
 
-Este projeto foi desenvolvido como parte do bootcamp da [Generation Brasil](https://brazil.generation.org/), com foco em práticas de desenvolvimento full stack com **Java + Angular**.
+Este projeto foi desenvolvido como parte do bootcamp da [Generation Brasil](https://brazil.generation.org/), com foco em práticas de desenvolvimento full stack com **Java + React**.
 
 ## 📄 Licença
 
