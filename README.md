@@ -1,54 +1,60 @@
-# React + TypeScript + Vite
+# 🏥 Farmácia Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o frontend de um sistema de gerenciamento de farmácia, desenvolvido como parte dos exercícios práticos do **Bootcamp Generation Brasil - Desenvolvedor Full Stack Java**. A aplicação foi construída com **Angular**, consumindo dados de uma API RESTful.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Visualização de produtos disponíveis na farmácia
+- Cadastro de novos produtos
+- Atualização de informações dos produtos
+- Exclusão de produtos
+- Autenticação de usuários (login e cadastro)
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- [Angular](https://angular.io/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Bootstrap](https://getbootstrap.com/)
+- [API REST](https://github.com/sandramastrogiacomo/farmacia_backend.git) (consumida pelo projeto)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📦 Instalação e Execução
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/sandramastrogiacomo/farmacia_frontend.git
+   ```
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd farmacia_frontend
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   ng serve
+   ```
+5. Acesse o app em: `http://localhost:4200`
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+⚠️ **Importante:** Certifique-se de que o backend da aplicação está rodando. Você pode acessá-lo aqui: [farmacia_backend](https://github.com/sandramastrogiacomo/farmacia_backend.git)
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 📸 Demonstração
+
+*Inclua aqui prints da interface ou um gif de navegação, se desejar.*
+
+## 👩‍💻 Autora
+
+| ![Sandra Mastrogiacomo](https://avatars.githubusercontent.com/u/114502661?v=4) |
+|:--:|
+| [@sandramastrogiacomo](https://github.com/sandramastrogiacomo) |
+
+## 🎓 Projeto desenvolvido durante o Bootcamp
+
+Este projeto foi desenvolvido como parte do bootcamp da [Generation Brasil](https://brazil.generation.org/), com foco em práticas de desenvolvimento full stack com **Java + Angular**.
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
